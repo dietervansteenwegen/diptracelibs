@@ -1,0 +1,274 @@
+
+*********************
+* Component design: *		
+*********************
+
+- All pins on grid 0.159mm / 6.26 mil
+- Length pins: 150 mil/3.81mm indien mogelijk
+- IC's: Family name top center in symbol
+
+*****************************
+* Component identification: *		
+*****************************
+Reference designators according to:
+en.wikipedia.orf/wiki/Reference_designator
+        
+- Capacitor		
+Name:		          CAP_1411_15uF_20V
+RefDes		          C
+Value		          15uF/5V/15%
+Manufacturer	          AVX
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Dielectric	          Electrolyte/X5R/Tantalum
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+
+
+- Resistor		
+Name:		          RES_1411_15k2(0R01)_5%
+RefDes		          R
+Value		          15k2/1%
+Manufacturer	          AVX
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Dielectric	          Electrolyte/X5R/Tantalum
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+
+- Other IC's
+Name:		          TPS2660 (ook in component te zien, bovenaan center)
+RefDes		          U
+Value	               
+Manufacturer	          AVX
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Function                 e-Fuse
+Supply voltage           x to yV
+
+- Power management		
+Name:		          MIC5504 (ook in component te zien, bovenaan center)
+RefDes		          VR
+Value	               0.5A/5.0V (output voltage)
+Manufacturer	          AVX
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+VDO                      xxxmV
+Supply voltage           x to yV
+Function                 LDO/Step-up/Step-down/Step-up-down/Charge pump 5V/Var
+
+- Clock and timing
+Name:		          8MHZ XTAL/OSC
+RefDes		          Y
+Value	               8MHZ/32k768
+Manufacturer	          AVX
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Load capacitance         12pF
+Mode                     Overtone/Fundamental
+
+- Connectors
+Name:		          SL 3.5/5/180
+RefDes		          J
+Value	               2x20/28
+Manufacturer	          Weidmuller
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Mating connector         MFG type nummer mating connector
+Rated current            xA
+Max wire area            xmm2
+
+- Diodes
+Name:		          5.6V zener/LED/Schottky
+RefDes		          D
+Value	               LED: 850nm IR, Zener: 4V2
+Manufacturer	          Weidmuller
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Forward voltage          (bij LEDs) 1.4V @20mA
+Vf Max                   300mV @xmA
+I Max                    xmA
+
+- Memory
+Name:		          Value/Type
+RefDes		          U
+Value	               64kB
+Manufacturer	          Weidmuller
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Memory type              Flash/EEPROM/NAND/...
+Interface                SPI/I2C/Parallel
+Supply voltage           5V
+
+- Motor drivers
+Name:		          Half-bridge/Full-bridge
+RefDes		          U
+Value	               Continuous 0.5A/5.0V
+Manufacturer	          Weidmuller
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Interface                SPI/I2C/PWM
+Supply voltage           5V
+
+- Triacs
+Name:		          ?
+RefDes		          U
+Value	               0.5A/5.0V
+Manufacturer	          Weidmuller
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Load current             4A
+Control voltage          3-24Vdc
+Zero crossing            Y/N
+
+- Inductors
+Name:		          Choke/Coil/Ferrite/inductor (Resonant freq)
+RefDes		          L/FB
+Value	               10uH/10%
+Manufacturer	          Weidmuller
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Resonant frequency       0.4MHz
+Shielded                 Y/N
+Saturation current       244mA
+DC resistance            24mR
+
+- Data converters
+Name:		          Manufacturer (Family) Name
+RefDes		          U
+Value	               x ch/x bits
+Manufacturer	          Analog Devices
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Supply voltage           3.3V
+Channels                 2
+Resolution               12
+Interface                I2C/SPI
+
+- FET and Drivers
+Name:		          Manufacturer (Family) Name N/P type
+RefDes		          Q/U
+Value	               
+Manufacturer	          Analog Devices
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Type                     N/P
+Supply voltage max       26V
+High/Low side            Low/High/Both (if driver)
+Vgs                      xV
+Max current              xA
+
+- Drivers and Interfaces
+Name:		          Manufacturer (Family) Name Interface
+RefDes		          U
+Value	               RSxxx/CAN/USB/ETH/4-20mA
+Manufacturer	          Analog Devices
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Supply voltage           26V
+Drivers/Receivers        2/4
+Max data rate            x bps/baud
+
+- Microcontrollers
+Name:		          Manufacturer (Family) Name
+RefDes		          U
+Value	               
+Manufacturer	          Analog Devices
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Supply voltage           2-5V
+Package                  44 QFN
+Flash                    128kB
+
+- Opamps
+Name:		          Manufacturer (Family) Name
+RefDes		          U
+Value	               
+Manufacturer	          Analog Devices
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Supply voltage           2-5V
+Number of Opamps         2
+Single Supply            Y/N
+Rail-to-Rail             Y/N
+
+- Opto couplers
+Name:		          Manufacturer (Family) Name
+RefDes		          U
+Value	               
+Manufacturer	          Analog Devices
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Supply voltage           2-5V
+Drive current            20mA
+
+- Fuses
+Name:		          Manufacturer (Family) Name, trip current
+RefDes		          F
+Value	               
+Manufacturer	          Analog Devices
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Maximum voltage          20V
+Hold current             300mA
+Trip current             600mA
+Resistance max           2R2
+Resettable               Y/N
+
+- Relays
+Name:		          Manufacturer (Family) Name
+RefDes		          K
+Value	               
+Manufacturer	          Tyco
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Maximum voltage AC       230V
+Maximum voltage DC       200V
+Maximum current          xA
+Control voltage          12V
+Control current          20mA
+Contact configuration    SPST
+Coil resistance          0R2
+
+- Sensors
+Name:		          Manufacturer (Family) Name
+RefDes		          U
+Value	               
+Manufacturer	          Tyco
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Type                     Temp/Humidity/...
+Interface                I2C/SPI
+Resolution               x
+Accuracy                 y
+Supply voltage           2-5V
+
+- Switches
+Name:		          Manufacturer (Family) Name
+RefDes		          S
+Value	               
+Manufacturer	          Tyco
+Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
+Farnell		          1655851
+Manufacturer name		TPSB156K020R0500
+Maximum voltage AC       230V
+Maximum voltage DC       200V
+Maximum current          xA
+Configuration            (2x) SPST/DP..
+Resistance               0R02
