@@ -83,8 +83,8 @@ RefDes		          J
 Value	               2x20/28
 Manufacturer	          Weidmuller
 Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
-Farnell		          1655851
 Manufacturer name		TPSB156K020R0500
+Farnell		          1655851
 Mating connector         MFG type nummer mating connector
 Rated current            xA
 Max wire area            xmm2
