@@ -66,6 +66,7 @@ Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10
 Farnell		          1655851
 Manufacturer name		TPSB156K020R0500
 Load capacitance         12pF
+Freq tolerance			 20ppm
 Mode                     Overtone/Fundamental
 
 - Connectors
