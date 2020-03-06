@@ -16,19 +16,20 @@ en.wikipedia.orf/wiki/Reference_designator
 - Capacitor		
 Name:		          CAP_1411_15uF_20V
 RefDes		          C
-Value		          15uF/5V/15%
+Value		          15uF_5V_15%
 Manufacturer	          AVX
 Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
-Dielectric	          Electrolyte/X5R/Tantalum
-Farnell		          1655851
 Manufacturer name		TPSB156K020R0500
+Farnell		          1655851
+Voltage rating          
+Dielectric	          Electrolyte/X5R/Tantalum
 Misc
 
 
 - Resistor		
 Name:		          RES_1411_15k2(0R01)_5%
 RefDes		          R
-Value		          15k2/1%
+Value		          15k2_1%
 Manufacturer	          AVX
 Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
 Farnell		          1655851
