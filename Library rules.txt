@@ -22,6 +22,7 @@ Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10
 Dielectric	          Electrolyte/X5R/Tantalum
 Farnell		          1655851
 Manufacturer name		TPSB156K020R0500
+Misc
 
 
 - Resistor		
@@ -32,9 +33,10 @@ Manufacturer	          AVX
 Datasheet		          https://be.farnell.com/avx/tpsb156k020r0500/cap-15-f-20v-10-smd/dp/1658514?st=TPSB156K020R0500
 Farnell		          1655851
 Manufacturer name		TPSB156K020R0500
-Power rating
-Voltage rating
-Tolerance
+Power rating            250mW
+Voltage rating          50V
+Tolerance               1%
+Misc                    1turn (for pot)
 
 - Other IC's
 Name:		          TPS2660 (ook in component te zien, bovenaan center)
@@ -46,6 +48,7 @@ Farnell		          1655851
 Manufacturer name		TPSB156K020R0500
 Function                 e-Fuse
 Supply voltage           x to yV
+Misc
 
 - Power management		
 Name:		          MIC5504 (ook in component te zien, bovenaan center)
@@ -58,6 +61,7 @@ Manufacturer name		TPSB156K020R0500
 VDO                      xxxmV
 Supply voltage           x to yV
 Function                 LDO/Step-up/Step-down/Step-up-down/Charge pump 5V/Var
+Misc
 
 - Clock and timing
 Name:		          8MHZ XTAL/OSC
@@ -69,6 +73,7 @@ Farnell		          1655851
 Manufacturer name		TPSB156K020R0500
 Load capacitance         12pF
 Mode                     Overtone/Fundamental
+Misc
 
 - Connectors
 Name:		          SL 3.5/5/180
@@ -81,6 +86,7 @@ Manufacturer name		TPSB156K020R0500
 Mating connector         MFG type nummer mating connector
 Rated current            xA
 Max wire area            xmm2
+Misc
 
 - Diodes
 Name:		          5.6V zener/LED/Schottky
@@ -93,6 +99,7 @@ Manufacturer name		TPSB156K020R0500
 Forward voltage          (bij LEDs) 1.4V @20mA
 Vf Max                   300mV @xmA
 I Max                    xmA
+Misc
 
 - Memory
 Name:		          Value/Type
@@ -105,6 +112,7 @@ Manufacturer name		TPSB156K020R0500
 Memory type              Flash/EEPROM/NAND/...
 Interface                SPI/I2C/Parallel
 Supply voltage           5V
+Misc
 
 - Motor drivers
 Name:		          Half-bridge/Full-bridge
@@ -116,6 +124,7 @@ Farnell		          1655851
 Manufacturer name		TPSB156K020R0500
 Interface                SPI/I2C/PWM
 Supply voltage           5V
+Misc
 
 - Triacs
 Name:		          ?
@@ -128,6 +137,7 @@ Manufacturer name		TPSB156K020R0500
 Load current             4A
 Control voltage          3-24Vdc
 Zero crossing            Y/N
+Misc
 
 - Inductors
 Name:		          Choke/Coil/Ferrite/inductor (Resonant freq)
@@ -141,6 +151,7 @@ Resonant frequency       0.4MHz
 Shielded                 Y/N
 Saturation current       244mA
 DC resistance            24mR
+Misc
 
 - Data converters
 Name:		          Manufacturer (Family) Name
@@ -154,6 +165,7 @@ Supply voltage           3.3V
 Channels                 2
 Resolution               12
 Interface                I2C/SPI
+Misc
 
 - FET and Drivers
 Name:		          Manufacturer (Family) Name N/P type
@@ -168,6 +180,7 @@ Supply voltage max       26V
 High/Low side            Low/High/Both (if driver)
 Vgs                      xV
 Max current              xA
+Misc
 
 - Drivers and Interfaces
 Name:		          Manufacturer (Family) Name Interface
@@ -180,6 +193,7 @@ Manufacturer name		TPSB156K020R0500
 Supply voltage           26V
 Drivers/Receivers        2/4
 Max data rate            x bps/baud
+Misc
 
 - Microcontrollers
 Name:		          Manufacturer (Family) Name
@@ -192,6 +206,7 @@ Manufacturer name		TPSB156K020R0500
 Supply voltage           2-5V
 Package                  44 QFN
 Flash                    128kB
+Misc
 
 - Opamps
 Name:		          Manufacturer (Family) Name
@@ -205,6 +220,7 @@ Supply voltage           2-5V
 Number of Opamps         2
 Single Supply            Y/N
 Rail-to-Rail             Y/N
+Misc
 
 - Opto couplers
 Name:		          Manufacturer (Family) Name
@@ -216,6 +232,7 @@ Farnell		          1655851
 Manufacturer name		TPSB156K020R0500
 Supply voltage           2-5V
 Drive current            20mA
+Misc
 
 - Fuses
 Name:		          Manufacturer (Family) Name, trip current
@@ -230,6 +247,7 @@ Hold current             300mA
 Trip current             600mA
 Resistance max           2R2
 Resettable               Y/N
+Misc
 
 - Relays
 Name:		          Manufacturer (Family) Name
@@ -246,6 +264,7 @@ Control voltage          12V
 Control current          20mA
 Contact configuration    SPST
 Coil resistance          0R2
+Misc
 
 - Sensors
 Name:		          Manufacturer (Family) Name
@@ -260,6 +279,7 @@ Interface                I2C/SPI
 Resolution               x
 Accuracy                 y
 Supply voltage           2-5V
+Misc
 
 - Switches
 Name:		          Manufacturer (Family) Name
@@ -274,3 +294,4 @@ Maximum voltage DC       200V
 Maximum current          xA
 Configuration            (2x) SPST/DP..
 Resistance               0R02
+Misc
