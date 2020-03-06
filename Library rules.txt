@@ -237,7 +237,7 @@ Drive current            20mA
 Misc
 
 - Fuses
-Name:		          Manufacturer (Family) Name, trip current
+Name:		          Manufacturer, trip current, (Family) Name
 RefDes		          F
 Value	               
 Manufacturer	          Analog Devices
