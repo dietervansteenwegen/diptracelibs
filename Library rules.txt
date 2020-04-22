@@ -52,7 +52,7 @@ Supply voltage           x to yV
 Misc
 
 - Power management		
-Name:		          MIC5504 (ook in component te zien, bovenaan center)
+Name:		          MIC5504 (ook in component, top center), function (brief)
 RefDes		          VR
 Value	               0.5A/5.0V (output voltage)
 Manufacturer	          AVX
@@ -63,6 +63,7 @@ VDO                      xxxmV
 Supply voltage           x to yV
 Function                 LDO/Step-up/Step-down/Step-up-down/Charge pump 5V/Var
 Misc
+Package
 
 - Clock and timing
 Name:		          8MHZ XTAL/OSC
